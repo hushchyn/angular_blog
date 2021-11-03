@@ -1,0 +1,136 @@
+{
+  "category": [
+    {
+      "name": "frontend",
+      "id": 1
+    },
+    {
+      "name": "backend",
+      "id": 2
+    },
+    {
+      "name": "uidesign",
+      "id": 3
+    },
+    {
+      "name": "projectManagement",
+      "id": 4
+    },
+    {
+      "name": "QA",
+      "id": 5
+    }
+  ],
+  "articles": [
+    {
+      "category": {
+        "name": "frontend",
+        "id": 1
+      },
+      "imgPath": "https://cdn.pixabay.com/photo/2020/02/24/04/25/web-design-4875183_1280.jpg",
+      "title": "Card Title",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia tempora quia odit nam accusantium nobis excepturi est minus ipsa, et possimus, reiciendis error adipisci mollitia inventore assumenda voluptates quidem vero!",
+      "id": 1
+    },
+    {
+      "category": {
+        "name": "backend",
+        "id": 2
+      },
+      "imgPath": "https://res.cloudinary.com/practicaldev/image/fetch/s--RgH4nC1J--/c_imagga_scale,f_auto,fl_progressive,h_1080,q_auto,w_1080/https://thepracticaldev.s3.amazonaws.com/i/ssqkgebqme30hf4fwmw0.png",
+      "title": "Card Title",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia tempora quia odit nam accusantium nobis excepturi est minus ipsa, et possimus, reiciendis error adipisci mollitia inventore assumenda voluptates quidem vero!",
+      "id": 2
+    },
+    {
+      "category": {
+        "name": "uidesign",
+        "id": 3
+      },
+      "imgPath": "https://www.tech-it.ru/img/slide.jpg",
+      "title": "Post Title",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia tempora quia odit nam accusantium nobis excepturi est minus ipsa, et possimus, reiciendis error adipisci mollitia inventore assumenda voluptates quidem vero!",
+      "id": 3
+    },
+    {
+      "category": {
+        "name": "projectManagement",
+        "id": 4
+      },
+      "imgPath": "https://www.scnsoft.by/Blog/the-most-promising-it-jobs/the-most-promising-it-jobs-preview.jpg",
+      "title": "Post Title",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia tempora quia odit nam accusantium nobis excepturi est minus ipsa, et possimus, reiciendis error adipisci mollitia inventore assumenda voluptates quidem vero!",
+      "id": 4
+    },
+    {
+      "category": {
+        "name": "QA",
+        "id": 5
+      },
+      "imgPath": "https://cdn.light-it.net/dou/frame11-btn.jpg",
+      "title": "Post Title",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia tempora quia odit nam accusantium nobis excepturi est minus ipsa, et possimus, reiciendis error adipisci mollitia inventore assumenda voluptates quidem vero!",
+      "id": 5
+    },
+    {
+      "category": {
+        "name": "backend",
+        "id": 2
+      },
+      "imgPath": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Illuminated_sign_for_the_IT_Arena_in_Lviv_%2801%29.jpg",
+      "title": "Post Title",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia tempora quia odit nam accusantium nobis excepturi est minus ipsa, et possimus, reiciendis error adipisci mollitia inventore assumenda voluptates quidem vero!",
+      "id": 6
+    },
+    {
+      "category": {
+        "name": "frontend",
+        "id": 1
+      },
+      "imgPath": "https://fullscale.io/blog/wp-content/uploads/2020/06/front-end-tools.png",
+      "title": "Post Title",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia tempora quia odit nam accusantium nobis excepturi est minus ipsa, et possimus, reiciendis error adipisci mollitia inventore assumenda voluptates quidem vero!",
+      "id": 7
+    },
+    {
+      "category": {
+        "name": "frontend",
+        "id": 1
+      },
+      "imgPath": "https://twenty-tech.com/wp-content/uploads/2018/12/Front-end-developemtn-1.png",
+      "title": "Post Title",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia tempora quia odit nam accusantium nobis excepturi est minus ipsa, et possimus, reiciendis error adipisci mollitia inventore assumenda voluptates quidem vero!",
+      "id": 8
+    },
+    {
+      "category": {
+        "name": "uidesign",
+        "id": 3
+      },
+      "imgPath": "https://itea.ua/wp-content/uploads/2020/10/ui-design.png",
+      "title": "Post Title",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia tempora quia odit nam accusantium nobis excepturi est minus ipsa, et possimus, reiciendis error adipisci mollitia inventore assumenda voluptates quidem vero!",
+      "id": 9
+    },
+    {
+      "category": {
+        "name": "projectManagement",
+        "id": 4
+      },
+      "imgPath": "https://krasina.mskobr.ru/files/News/2020/hjhbj.jpg",
+      "title": "Post Title",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia tempora quia odit nam accusantium nobis excepturi est minus ipsa, et possimus, reiciendis error adipisci mollitia inventore assumenda voluptates quidem vero!",
+      "id": 10
+    },
+    {
+      "category": {
+        "name": "QA",
+        "id": 5
+      },
+      "imgPath": "https://merehead.com/blog/wp-content/uploads/1-127.jpg",
+      "title": "Post Title",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia tempora quia odit nam accusantium nobis excepturi est minus ipsa, et possimus, reiciendis error adipisci mollitia inventore assumenda voluptates quidem vero!",
+      "id": 11
+    }
+  ]
+}

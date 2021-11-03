@@ -1,0 +1,22 @@
+button{
+    width: 100px;
+    height: 35px;
+    background-color: inherit;
+    color: black;
+    border-radius: 3px;
+    border: 1px solid black;
+
+    &:hover{
+        background-color: black;
+        color: white;
+    }
+}
+
+.card-img-top{
+    height: 400px;
+}
+
+a{
+    font-size: 24px;
+    font-weight: 600px;
+}

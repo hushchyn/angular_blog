@@ -1,0 +1,8 @@
+<div class="card mb-3">
+    <img [src]="currentArticle.imgPath" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{currentArticle?.title}}</h5>
+      <p class="card-text">{{currentArticle?.description}}</p>
+      <button type="button" (click)="location.back()">Назад</button>
+    </div>
+  </div>

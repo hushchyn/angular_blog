@@ -1,0 +1,11 @@
+<div class="container" >
+    <div class="card mb-3 mt-3" style="width: 49%;" *ngFor="let article of articles">
+            <img [src]="article.imgPath" class="card-img-top" alt="...">
+        <div class="card-body">
+                <a [routerLink]="[ article.category.name,article.id ]">{{article.title}}</a>
+              <p class="card-text">{{ article.description }}</p>
+              <button type="button" [routerLink]="[ article.id ]" > More</button>
+        </div>
+    </div>
+</div>
+

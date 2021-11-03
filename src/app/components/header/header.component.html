@@ -1,0 +1,43 @@
+<div class="header"> 
+  <div class="header-menu">
+    <button type="button"><img src="assets/icons/menu.png" alt="" (click)="sideNav = !sideNav"></button>
+    <a class="navbar-brand"  [routerLink]="[ '/' ]" routerLinkActive="active">IT Blog</a>
+  </div>
+  <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#articleModal" >Add article</button>
+</div>
+
+<div class="side-nav" [ngClass]="{'active': sideNav}">
+  <a [routerLink]="[ '/frontend']" routerLinkActive="active">Front End</a>
+  <a [routerLink]="[ '/backend']" routerLinkActive="active">Back End</a>
+  <a [routerLink]="[ '/uidesign']" class="link" routerLinkActive="active">UX/UI Design</a>
+  <a [routerLink]="[ '/projectManagement']"class="link"routerLinkActive="active" >Project Management</a>
+  <a [routerLink]="[ '/QA']"class="link"  routerLinkActive="active">Q/A Engeneer</a>
+</div>
+
+
+<div #red class="modal fade" id="articleModal" tabindex="-1" aria-labelledby="articleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <form [formGroup]=formArticle class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="articleModallLabel">Add article</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <label for="category" class="form-label label">Category</label>
+        <select formControlName="category" class="form-select"> 
+            <option [ngValue]="category" *ngFor="let category of categories">{{category.name}}</option>
+        </select>
+        <label for="imgPath" class="form-label label">Image path</label>
+        <input type="url" formControlName="imgPath" class="form-control" id="url" >
+        <label for="title" class="form-label label">Title</label>
+        <input type="text" formControlName="title" class="form-control">
+        <label for="description" class="form-label label">Artcle description</label>
+        <textarea formControlName="description" class="form-control" id="" cols="30" rows="10"></textarea>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" (click)="addArtcile()" data-bs-dismiss="modal" [disabled]=formArticle.invalid>Add article</button>
+      </div>
+    </form>
+  </div>
+</div>

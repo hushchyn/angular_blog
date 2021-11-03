@@ -1,0 +1,58 @@
+.header{
+    width: 100%;
+    height: 80px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgrey;
+    position: fixed;
+    background-color: white;
+    z-index: 1;
+    &-menu{
+        width: 180px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        a{
+            font-size: 32px;
+            font-weight: bold;
+            color: black;
+        }
+    }
+
+    .btn{
+        width: 120px;
+        height: 40px;
+        background-color: black;
+        color: white;
+        border-radius: 3px;
+    }
+
+    
+}
+
+.side-nav{
+    width: 270px;
+    height: calc(100vh - 80px);
+    background-color: white;
+    opacity: 80%;
+    display: flex;
+    top: 80px;
+    flex-direction: column;
+    padding: 25px;
+    z-index: 2;
+    position: absolute;
+    left: -400px;
+    transition: all ease 0.3s;
+    &.active{
+        left: 0;
+        top: 80px;
+    position: fixed;
+    }
+    a{
+        font-size: 18px;
+        font-weight: 400px;
+        margin-bottom: 8px;
+    }
+}
